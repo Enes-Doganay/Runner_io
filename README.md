@@ -26,4 +26,5 @@ Runner IO provides an exhilarating runner game experience and allows users to te
 
 # Current Levels: 4
 
-# Note: To create new levels, open the "LevelMaker" scene and assign a new "LevelDefinition" scriptable object to the "LevelRecorder" object. Make changes to the objects in the scene, add new prefabs, and then press the "Save Level" button to save the level. Afterward, simply add this "Level Definition" scriptable object to the "Levels" list in the "SequenceManager" prefab.
+# Note
+To create new levels, open the "LevelMaker" scene and assign a new "LevelDefinition" scriptable object to the "LevelRecorder" object. Make changes to the objects in the scene, add new prefabs, and then press the "Save Level" button to save the level. Afterward, simply add this "Level Definition" scriptable object to the "Levels" list in the "SequenceManager" prefab.
