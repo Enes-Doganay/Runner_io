@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1928608167349836467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8767735719991876370}
+  - component: {fileID: 846391045231560368}
+  m_Layer: 0
+  m_Name: SequenceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8767735719991876370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928608167349836467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5914001, y: 2.6410365, z: 1.3733627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &846391045231560368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928608167349836467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e677f9d19d08833419b1a5d553faf95e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preloadAssets:
+  - {fileID: 7917911998291890536, guid: e237b97c1b711f347b8452f129ebf542, type: 3}
+  - {fileID: 7798505693134632672, guid: c5dd3c522d2af724fbfe5d9bba8f7dc8, type: 3}
+  - {fileID: 278644194431893671, guid: d2e99dece717d144b9139acfa1e4ba14, type: 3}
+  - {fileID: 192613372373002160, guid: c0fe5b1f69a408047970a84b9851e380, type: 3}
+  levels:
+  - {fileID: 11400000, guid: 31d0215bd2c024143a439898576a998b, type: 2}
+  - {fileID: 11400000, guid: a31fcd49903b90b48a6c5e86a1a8806d, type: 2}
+  - {fileID: 11400000, guid: 84764e0430475154ab7d9fb0fc556f97, type: 2}
+  - {fileID: 11400000, guid: 304a2ec7eeabe4046a5682e32e5c92ac, type: 2}
+  levelManagers:
+  - {fileID: 7656145127772762024, guid: 08d0ec7202dba1c46a710aee58961411, type: 3}
+  - {fileID: 7196332148822409368, guid: 741823b93c299c14d86eb19843fac05c, type: 3}
+  - {fileID: 5441379970710319738, guid: 9f95846ce31663e4ea817f2b001f33c3, type: 3}
+  - {fileID: 9175748631190322841, guid: 8c0d08226167f8d4ab41fcfc0074bb0c, type: 3}
+  - {fileID: 1020914616697714886, guid: 6e998d7df853d26448035b66370e1bde, type: 3}

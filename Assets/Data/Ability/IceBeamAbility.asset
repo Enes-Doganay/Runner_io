@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2a8fceafa3af04191b6b2418ec9c66, type: 3}
+  m_Name: IceBeamAbility
+  m_EditorClassIdentifier: 
+  Name: Ice Beam
+  AbilityDuration: 2
+  abilityPrefab: {fileID: 100042, guid: be1daa597866a894fa1a18231c89d8d8, type: 3}
